@@ -4,17 +4,47 @@ font-family: 'Fredericka the Great', cursive;
 font-family: 'Poppins', sans-serif;
 
 */
+body {
+    margin: 0;
+}
 
 .wrapper {
-        max-width: 900px;
-        margin: auto;
-        scroll-behavior: smooth;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100vw;
+        height: 100vh;
+        background-color: #d8b241;
+        background-size: cover;
+
+    }
+
+.scroll {
+        overflow-y: scroll;
+        padding: 20px;
     }
 
 body {
-    background-color: #e4bd48;
+    background-color: #cf9e0b;
+}
+footer {
+    background-image: url(wood.jpg);
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+} 
+
+nav {
+    height: 60px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+a {
+    display: grid;
+    justify-content: center;
+    align-content: center;
 }
 
-footer {
-    background-image: url(Holz\ hintergrund.jpg);
+a:link, a:visited {
+    color: rgb(7, 7, 7);
 }
