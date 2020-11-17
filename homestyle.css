@@ -62,7 +62,7 @@ a:hover {
 	padding: 0;
     list-style-type: none;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr 1fr;
     grid-gap: 1em;
     
 }
@@ -80,11 +80,12 @@ a:hover {
 	font-size: 0.8em;
     transition: opacity 1s;
     text-align: center;
-    opacity: 0.5;
-    
-    
-    
+    opacity: 0.8;
+    margin-top: -110px;
+    margin-bottom: 30px;
    
+   
+    
 }
 
 a:focus .caption,
@@ -98,7 +99,6 @@ a:hover .caption {
 }
 
 img {
-    
     width: 100%;
     object-fit: cover;
     height: 150px;
