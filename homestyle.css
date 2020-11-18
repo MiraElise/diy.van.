@@ -11,6 +11,30 @@ body {
     margin-top: 0;
      
 }
+/* -----------header---------------- */
+
+header {
+    background-image: url(wood.jpg);
+    position: fixed;
+    width: 100%;
+    height: 65px;
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: space-between;
+}
+.profilepicture {
+    height: 50px;
+    width: 50px;
+    padding: 10px;
+    border-radius: 50%;
+}
+.logo-top {
+    padding-left: 10px;
+    font-size: small;
+}
+
+/*----------------------------------*/
 
 .wrapper {
         display: flex;
@@ -31,6 +55,9 @@ body {
 body {
     background-color:  #d8b241;
 }
+
+
+
 footer {
     background-image: url(wood.jpg);
     position: fixed;
