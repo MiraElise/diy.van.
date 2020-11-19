@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    font-family: 'Catamaran', sans-serif;
+    margin-bottom: 70px;
+    
+}
+
+.wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100vw;
+        height: 100vh;
+        background-color: #d8b241;
+        background-size: cover;
+
+    }
+
+.scroll {
+        overflow-y: scroll;
+        padding: 20px;
+    }
+
+body {
+    background-color:  #d8b241;
+}
+footer {
+    background-image: url(wood.jpg);
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+} 
+
+
+nav {
+    height: 60px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+a {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+
+a:link, a:visited {
+    color: rgb(32, 31, 31);
+}
+
+a:hover {
+    color: black;
+}
+
+img {
+        width: 100%;
+        object-fit: cover;
+        height: 150px;
+}
+
+.mainheader {
+    font-size: 1.4em;
+    margin-top: 3em;
+}
