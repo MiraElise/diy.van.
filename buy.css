@@ -1,8 +1,24 @@
 body {
     margin: 0;
-    font-family: 'Catamaran', sans-serif;
     margin-bottom: 70px;
     
+    
+}
+header {
+    background-image: url(wood.jpg);
+    position: fixed;
+    width: 1500px;
+}
+
+.logo-top {
+    margin: 0;
+    height: 2.5em;
+    display: grid;
+    grid-template-columns: 0.1fr 1fr;
+    grid-gap: 0px;
+    font-family: 'Fredericka the Great', cursive;
+    line-height: 20px;
+
 }
 
 .wrapper {
@@ -61,3 +77,128 @@ img {
     font-size: 1.4em;
     margin-top: 3em;
 }
+
+.navlink {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0px;
+    text-align: center;
+    
+}
+
+.rent {
+    background-image: url(wood.jpg);
+    margin-top: 60px;
+    text-align: center;
+    color:  rgb(229, 204, 182);
+    width: 220px;
+    height: 45px;
+    line-height: -100px;
+}
+
+.buy {
+    color: rgb(78, 18, 18);
+    margin-top: 60px;
+}
+
+.searchbox {
+    display: grid;
+    grid-template-columns: 1fr 0.5fr;
+    grid-gap: 0px;
+    background-color: rgb(229, 204, 182);
+    border-radius: 15px;
+    border: 0;
+    width: 300px;
+    margin-bottom: 10px;
+    height: 35px;
+    margin-left: 10px;
+    font-family: 'Catamaran', sans-serif;
+}
+
+.searchicon {
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    margin-top: 0;
+    
+}
+
+.search {
+    color: rgb(229, 204, 182);
+    background-color: rgb(82, 62, 52);
+    width: 90px;
+    border-radius: 10px;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    margin-top: 0;
+    height: 30px;
+    margin-top: 2px;
+
+}
+    
+.caption-title {
+    grid-area: title;
+}
+.caption-price {
+    grid-area: price;
+}
+.caption-km {
+    grid-area: km;
+}
+.caption-age {
+    grid-area: age;
+}
+.caption-location {
+    grid-area: location;
+}
+.vanpic {
+    grid-area: vanpic;
+}
+
+.box {
+    display: grid;
+    grid-template-columns: 5fr 6fr;
+    grid-gap: 10px;
+    grid-template-areas: 
+    "vanpic title location"
+    "vanpic price ."
+    "vanpic km age";
+}
+
+.caption {
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+    grid-gap: 0px;
+    grid-template-areas: 
+    "title location"
+    "price . "
+    "km age";
+}
+
+
+.box {
+    margin: 0;
+    margin-top: 0.2em;
+    border: 1px solid rgb(43, 41, 41);
+    background:  rgb(229, 204, 182);
+    height: 130px;
+}
+
+.caption-title {
+    margin: 0;
+}
+
+.caption-location{
+    margin: 0;
+    font-size: 8px;
+    display: flex;
+    position: absolute;
+    right: 0px;
+}
+
+
+.vanpic {
+    height: 130px;
+}
+
