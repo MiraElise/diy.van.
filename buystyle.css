@@ -4,22 +4,35 @@ body {
     
     
 }
+
 header {
     background-image: url(wood.jpg);
     position: fixed;
-    width: 1500px;
+    width: 100%;
+    height: 65px;
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: space-between;
+}
+.profilepicture {
+    height: 50px;
+    width: 50px;
+    padding: 10px;
+    border-radius: 50%;
 }
 
 .logo-top {
     margin: 0;
     height: 2.5em;
     display: grid;
-    grid-template-columns: 0.1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-gap: 0px;
     font-family: 'Fredericka the Great', cursive;
     line-height: 20px;
 
 }
+
 
 .wrapper {
         display: flex;
@@ -83,22 +96,25 @@ img {
     grid-template-columns: 1fr 1fr;
     grid-gap: 0px;
     text-align: center;
+
     
 }
 
 .rent {
     background-image: url(wood.jpg);
-    margin-top: 60px;
+    margin-top: 50px;
     text-align: center;
     color:  rgb(229, 204, 182);
     width: 220px;
-    height: 45px;
-    line-height: -100px;
+    height: 50px;
+    line-height: 65px;
+    
 }
 
 .buy {
     color: rgb(78, 18, 18);
     margin-top: 60px;
+    text-align: center;
 }
 
 .searchbox {
@@ -113,13 +129,15 @@ img {
     height: 35px;
     margin-left: 10px;
     font-family: 'Catamaran', sans-serif;
+    border: 0.2px solid rgb(32, 32, 32);
 }
 
 .searchicon {
-    text-align: center;
+   text-align: center;
     justify-content: center;
     align-content: center;
-    margin-top: 0;
+    margin-top: -10px;
+   width: 100px;
     
 }
 
@@ -202,3 +220,6 @@ img {
     height: 130px;
 }
 
+a {
+    text-decoration: none;
+}

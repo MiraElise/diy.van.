@@ -5,6 +5,34 @@ body {
     
 }
 
+header {
+    background-image: url(wood.jpg);
+    position: fixed;
+    width: 100%;
+    height: 65px;
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: space-between;
+}
+.profilepicture {
+    height: 50px;
+    width: 50px;
+    padding: 10px;
+    border-radius: 50%;
+}
+.logo-top {
+    margin: 0;
+    height: 2.5em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0px;
+    font-family: 'Fredericka the Great', cursive;
+    line-height: 20px;
+
+}
+
+
 .wrapper {
         display: flex;
         flex-direction: column;

@@ -30,9 +30,17 @@ header {
     border-radius: 50%;
 }
 .logo-top {
-    padding-left: 10px;
-    font-size: small;
+    margin: 0;
+    height: 2.5em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0px;
+    font-family: 'Fredericka the Great', cursive;
+    line-height: 20px;
+    
 }
+
+
 
 /*----------------------------------*/
 
@@ -146,7 +154,9 @@ li {
   
 }
 
-
+a {
+    text-decoration: none;
+}
 
 
 
