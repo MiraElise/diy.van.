@@ -30,7 +30,6 @@ header {
     grid-gap: 0px;
     font-family: 'Fredericka the Great', cursive;
     line-height: 20px;
-
 }
 
 
@@ -42,8 +41,39 @@ header {
         height: 100vh;
         background-color: #d8b241;
         background-size: cover;
-
     }
+
+    .topnav input[type=text] {
+        float: right;
+        padding: 6px;
+        border: none;
+        margin-top: 8px;
+        margin-right: 16px;
+        font-size: 17px;
+      }
+
+      .searchbox {
+          margin-left: 4px;
+          margin-bottom: 10px;
+          
+      }
+
+      input[type=text] {
+        width: 130px;
+        -webkit-transition: width 0.4s ease-in-out;
+        transition: width 0.4s ease-in-out;
+        background-color:rgb(235, 214, 195);
+        border-radius: 5px;
+        height: 25px;
+        width: 200px;
+        
+      }
+      
+      /* When the input field gets focus, change its width to 100% */
+      input[type=text]:focus {
+        width: 50%;
+      }
+      
 
 .scroll {
         overflow-y: scroll;
@@ -117,43 +147,7 @@ img {
     text-align: center;
 }
 
-.searchbox {
-    display: grid;
-    grid-template-columns: 1fr 0.5fr;
-    grid-gap: 0px;
-    background-color: rgb(229, 204, 182);
-    border-radius: 15px;
-    border: 0;
-    width: 300px;
-    margin-bottom: 10px;
-    height: 35px;
-    margin-left: 10px;
-    font-family: 'Catamaran', sans-serif;
-    border: 0.2px solid rgb(32, 32, 32);
-}
-
-.searchicon {
-   text-align: center;
-    justify-content: center;
-    align-content: center;
-    margin-top: -10px;
-   width: 100px;
-    
-}
-
-.search {
-    color: rgb(229, 204, 182);
-    background-color: rgb(82, 62, 52);
-    width: 90px;
-    border-radius: 10px;
-    text-align: center;
-    justify-content: center;
-    align-content: center;
-    margin-top: 0;
-    height: 30px;
-    margin-top: 2px;
-
-}
+input type=text
     
 .caption-title {
     grid-area: title;
