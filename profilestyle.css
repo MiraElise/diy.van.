@@ -1,0 +1,117 @@
+body {
+    margin:0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #d8b241;
+}
+
+
+
+/*----------footer----------------*/
+
+footer {
+    background-image: url(wood.jpg);
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+} 
+nav {
+    height: 60px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+a {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+a:link, a:visited, a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+
+
+/*-----------profile styling-------------*/
+
+.profile {
+    background-image: url(wood.jpg);
+    padding: 10px;
+    display: grid;
+    position: fixed;
+    top:0px;
+    width: 100%;
+    grid-template-columns: 30% 1fr;
+    grid-template-rows: repeat(6fr);
+    grid-template-areas: 
+    "pic ."
+    "pic ."
+    "pic name"
+    "pic email"
+    "pic ."
+    "pic .";
+    
+    }
+    .name {
+        grid-area: name;
+        margin: 0;
+        font-size: 120%;
+    }
+    .email {
+        grid-area: email;
+        margin: 0;
+        font-size: smaller;
+        color: black;
+    }
+    .profile-pic-big {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+       grid-area: pic;
+    }
+    .profile-menu {
+        display: grid;
+        background-color: #d8b241;
+        gap: 3px;
+        height: 50px;
+        grid-template-columns: repeat(4fr);
+        align-items: center;
+        position: fixed;
+        top:100px;
+        width:100%;
+       
+    }
+    .profile-buttons {
+        background-color: rgb(118, 48, 45);
+        
+       text-decoration: none;
+    }
+    h3 {
+        font-size: small;
+    }
+
+/*----------contentstyling-------------*/
+
+ 
+.profile-content {
+    margin-top: 180px;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    margin-left: 10px;
+    
+}
+.upload {
+    width: 95%;
+    border-radius: 8%;
+    
+}
+ .date {
+     margin: 0px;
+     padding-left: 20px;
+ }
+p {
+    font-size: x-small;
+    color: rgb(62, 60, 60);
+
+}
