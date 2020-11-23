@@ -82,11 +82,19 @@ a:link, a:visited, a:hover {
     }
     .profile-buttons {
         background-color: rgb(118, 48, 45);
-        
        text-decoration: none;
     }
     h3 {
         font-size: small;
+    }
+    #myvan {
+        background-color: #d8b241; 
+    }
+    #ideas {
+        background-color: #d8b241;   
+    }
+    #projects {
+        background-color: #d8b241;  
     }
 
 /*----------contentstyling-------------*/
