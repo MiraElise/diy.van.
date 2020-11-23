@@ -101,7 +101,8 @@ main {
    height: 40px;
    width: 60%;
    margin: 20px;
-   margin-bottom: 30px;
+   margin-bottom: 0px;
+
 }
 
 a:link, a:visited {

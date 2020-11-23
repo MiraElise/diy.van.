@@ -84,17 +84,6 @@ a {
     text-decoration: none;
 }
 
-.map {
-   position: relative;
-   padding-bottom: 56%;
-   height: 0;
-   overflow: hidden;
-    }
-
-.map iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
+img {
     width: 100%;
-    height: 100%;
 }
