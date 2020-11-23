@@ -14,7 +14,9 @@ header {
     grid-template-columns: 1fr 1fr;
     align-items: center;
     justify-content: space-between;
+    top: 0;
 }
+
 .profilepicture {
     height: 50px;
     width: 50px;
@@ -87,6 +89,132 @@ img {
 }
 
 .mainheader {
-    font-size: 1.4em;
-    margin-top: 3em;
+    font-size: 1em;
+    margin-top: 4em;
 }
+
+
+.dealbox-dato {
+    grid-area: dato;
+}
+.dealbox-paragraf{
+    grid-area: paragraf;
+}
+.dealbox-pic {
+    grid-area: pic;
+}
+
+.answerbox {
+    grid-area: answer;
+}
+
+
+.dealbox {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0px;
+    grid-template-areas: 
+    "dato ."
+    "paragraf pic"
+    "answer .";
+    background-color: rgb(221, 178, 140);
+    height: 220px;
+    margin-top: 4px;
+}
+
+.dealbox-dato {
+   line-height: 1px;
+   font-size: 1em;
+   text-decoration-line: underline;
+   
+   
+}
+
+.dealbox-paragraf {
+    margin: 0;
+}
+
+
+.mainheader {
+    display: grid;
+    grid-template-columns: 1fr 0.5fr;
+    grid-gap: 0px;
+}
+
+.mainheader-text {
+    margin-top: 0;
+    text-align: right;
+    margin-left: 200px;
+    
+}
+
+.topnav input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+  }
+
+  .searchbox {
+      margin-left: 4px;
+      margin-bottom: 15px;
+      text-align: end;
+      : ;
+      
+      
+  }
+
+  input[type=text] {
+    width: 130px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    background-color:rgb(235, 214, 195);
+    border-radius: 5px;
+    height: 25px;
+    width: 100px;
+    margin-top: 20px;
+    margin-right: 2px;
+    
+  }
+/* When the input field gets focus, change its width to 100% */
+  
+input[type=text]:focus {
+    width: 60%;
+  }
+  .mainheader-text {
+      margin: 18px;
+      color: rgb(110, 26, 26);
+      text-align: left;
+  }
+
+
+.answerbox {
+    border: 2px solid rgba(190, 139, 80, 0.637);
+    font-size: 1em;
+    margin-left: 130px;
+    text-align: center;
+    background-color: rgb(187, 146, 117);
+    margin-top: 0; 
+    margin-right: 0px;
+    margin-bottom: 50px;
+    width: 80px;
+}
+  
+.setin {
+    font-size: 3em;
+    text-align: right;
+    text-align: ;
+    margin: 0;
+    display: flex;
+    position: fixed;
+    bottom: 70px;
+    right: 20px;
+    
+}
+
+a {
+    text-decoration: none;
+}
+
