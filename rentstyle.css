@@ -96,8 +96,8 @@ img {
     grid-template-columns: 1fr 1fr;
     grid-gap: 0px;
     text-align: center;
-
-    
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
 }
 
 .rent {
@@ -177,6 +177,7 @@ img {
     "vanpic title location"
     "vanpic price ."
     "vanpic km age";
+    
 }
 
 .caption {
@@ -208,8 +209,8 @@ img {
     display: flex;
     position: absolute;
     right: 0px;
+    font-family: 'Catamaran', sans-serif;
 }
-
 
 .vanpic {
     height: 130px;

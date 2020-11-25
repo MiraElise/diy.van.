@@ -116,12 +116,13 @@ a:hover {
 	padding: 1em;
 	background: rgba(105, 78, 55, 0.863);
 	color: white;
-	font-size: 0.8em;
+	font-size: 14px;
     transition: opacity 1s;
     text-align: center;
     opacity: 0.8;
     margin-top: -110px;
     margin-bottom: 0px;
+    font-family:'Poppins', sans-serif;
     
 }
 
@@ -133,6 +134,7 @@ a:hover .caption {
 .caption-title {
 	margin: 0;
     font-size: 1.4em;
+    font-family: 'Poppins', sans-serif;;
 }
 
 img {

@@ -126,8 +126,7 @@ img {
     grid-template-columns: 1fr 1fr;
     grid-gap: 0px;
     text-align: center;
-
-    
+    font-family: 'Poppins', sans-serif;
 }
 
 .rent {

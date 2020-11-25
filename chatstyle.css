@@ -89,8 +89,12 @@ img {
 }
 
 .mainheader {
-    font-size: 1em;
+    font-size: 14px;
     margin-top: 4em;
+}
+
+.mainheader-text {
+    font-family: 'Poppins', sans-serif;
 }
 
 
@@ -120,6 +124,8 @@ img {
     background-color: rgb(221, 178, 140);
     height: 220px;
     margin-top: 4px;
+    font-family: 'Catamaran', sans-serif;
+    font-size: 15px;
 }
 
 .dealbox-dato {
