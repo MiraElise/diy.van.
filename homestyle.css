@@ -38,7 +38,10 @@ header {
     font-family: 'Fredericka the Great', cursive;
     line-height: 20px;
     
+    
 }
+
+
 
 
 
@@ -91,6 +94,7 @@ a:link, a:visited {
 a:hover {
     color: black;
 }
+
 
 /*cards*/
 
